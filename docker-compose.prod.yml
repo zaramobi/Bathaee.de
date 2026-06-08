@@ -1,0 +1,20 @@
+# Production deployment — bakes source into images, no volume mounts.
+#
+# Usage:
+#   docker compose -f docker-compose.yml -f docker-compose.prod.yml up --build
+
+services:
+  backend:
+    # No override: uses CMD from Dockerfile (plain uvicorn, no --reload)
+    volumes:
+      - ./data:/data:ro   # profiles data only, no source mount
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile       # multi-stage production build
+      args:
+        - NEXT_PUBLIC_API_URL=http://backend:8000
+    command: node server.js        # Next.js standalone output
+    environment:
+      - NODE_ENV=production

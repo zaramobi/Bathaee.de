@@ -1,0 +1,11 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container: rounded square, scales 24→32 (×1.333) -->
+  <rect width="32" height="32" rx="8.67" fill="#0D0D0D"/>
+  <!--
+    B letterform scaled ×1.333 from 24px grid:
+      stem   x:6.67–12   y:4–28   (original 5–9 × 1.333)
+      top    arc rx=12 ry=5.33   to (12, 14.67)
+      bottom arc rx=13.33 ry=6.67 to (12, 28)
+  -->
+  <path d="M6.67 4 H12 A12 5.33 0 0 1 12 14.67 A13.33 6.67 0 0 1 12 28 H6.67 Z" fill="white"/>
+</svg>

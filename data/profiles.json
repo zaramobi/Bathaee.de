@@ -1,0 +1,336 @@
+{
+  "contact_email": "havar@bathaee.de",
+  "profiles": [
+    {
+      "id": "havar-bathaee",
+      "cardId": "7a851d3f-44ca-469b-a151-174aea7f1055",
+      "personal": {
+        "name": "Havar Bathaee",
+        "title": "Senior Embedded Systems Engineer",
+        "tagline": "15+ years crafting firmware for IoT, LTE & edge devices — from bare metal to the cloud.",
+        "email": "havar@bathaee.de",
+        "phone": "Not available",
+        "location": "Berlin, Germany",
+        "linkedin": "https://www.linkedin.com/in/havarbathaee/",
+        "github": "",
+        "website": "",
+        "avatarUrl": "/avatars/havar.jpg"
+      },
+      "summary": "A highly technical, innovative, and committed professional in Embedded System Development with over 15 years of experience in Automation, IoT, and LTE. Deep expertise in Embedded C/C++ development, Embedded Linux programming, Real-Time Operating Systems (FreeRTOS, Zephyr), cloud platforms (AWS, GCP), and embedded/electronic hardware design. Passionate about bridging hardware and cloud to build reliable, low-power connected systems.",
+      "experience": [
+        {
+          "id": "mohe-biotech-2025",
+          "company": "Mohe BioTech",
+          "role": "Senior Embedded Systems Engineer",
+          "type": "Freelance",
+          "start": "2025-02",
+          "end": null,
+          "current": true,
+          "location": "Remote",
+          "description": "Design and development of firmware and hardware for biotech embedded systems.",
+          "bullets": [
+            "Design and development of firmware on STM32WB55",
+            "Design and development of circuit and layout of embedded systems using Altium Designer",
+            "Software development related to communication with the PCB in Python"
+          ],
+          "skills": ["Embedded C/C++", "UART", "ADC", "BLE", "Sensors", "Python", "TI MSP430", "Low Power IoT", "Altium Designer", "STM32WB55"]
+        },
+        {
+          "id": "agrivero-2024",
+          "company": "Agrivero UG",
+          "role": "Senior Embedded Systems Engineer",
+          "type": "Freelance",
+          "start": "2024-01",
+          "end": "2025-01",
+          "current": false,
+          "location": "Remote",
+          "description": "Agrivero.ai is a cutting-edge AI-based solution that automates green grading using edge robotics.",
+          "bullets": [
+            "Debugged and developed firmware for the edge robotic device in Embedded C++",
+            "Developed software for machine control, scanning, and data capture (Jetson, C/C++, Python)",
+            "Assisted in hardware and PCB design using Altium Designer",
+            "Developed Python code for AWS IoT Core integration"
+          ],
+          "skills": ["Nvidia Jetson", "Embedded C/C++", "UART", "ADC", "Sensors", "Protobuf", "Python", "Nordic nRFxx", "Zephyr RTOS", "AWS IoT", "MQTT"]
+        },
+        {
+          "id": "concr-2021",
+          "company": "ConcR | Smart Monitoring",
+          "role": "Senior Embedded Systems Engineer",
+          "type": "Full-time",
+          "start": "2021-04",
+          "end": "2023-12",
+          "current": false,
+          "location": "Berlin, Germany",
+          "description": "ConcR is an IoT company developing products to monitor concrete quality in real-time during construction works.",
+          "bullets": [
+            "Debugged and developed firmware for IoT devices in Embedded C (nRF91xx, Zephyr RTOS, AWS IoT)",
+            "Developed firmware for IoT devices in C to connect to backend via UDP",
+            "Designed and developed a test bench for IoT devices including hardware and software",
+            "Developed Python code for AWS Lambda Functions for data delivery pipelines",
+            "Developed Python Qt programs to control, test, and debug IoT devices over the air",
+            "Developed hardware and firmware of Wi-Fi module for testing in Embedded C (ESP32)"
+          ],
+          "skills": ["Embedded C/C++", "UART", "ADC", "I2C", "LittleFS", "LTE Modem", "Sensors", "Protobuf", "Python", "Python Qt", "Nordic nRFxx", "Zephyr RTOS", "Low Power IoT", "AWS IoT", "MQTT", "ESP32"]
+        },
+        {
+          "id": "byterial-2020",
+          "company": "Byterial GmbH (Mondialab Pro)",
+          "role": "Lead Firmware Developer",
+          "type": "Full-time",
+          "start": "2020-06",
+          "end": "2021-02",
+          "current": false,
+          "location": "Berlin, Germany",
+          "description": "MONDIALAB PRO is the first Lab on Chip system aiming to bring all medical tests to an IoT solution, connected via BLE to a tablet and cloud backend.",
+          "bullets": [
+            "Designed and developed IoT firmware to send data via Wi-Fi and AWS to the backend in Embedded C",
+            "Designed new hardware using Altium Designer for the new device generation"
+          ],
+          "skills": ["Embedded C", "UART", "ADC", "BLE", "Sensors", "Python", "TI MSP430", "Low Power IoT", "Altium Designer", "Wi-Fi Module", "AWS IoT Core", "u-blox"]
+        },
+        {
+          "id": "greenpack-2019",
+          "company": "GreenPack GmbH",
+          "role": "Senior Embedded Developer",
+          "type": "Full-time",
+          "start": "2019-02",
+          "end": "2020-05",
+          "current": false,
+          "location": "Berlin, Germany",
+          "description": "GreenPack is a portable battery pack producer for small electric transportation with cloud-connected charging stations.",
+          "bullets": [
+            "Developed and debugged firmware for battery charging stations in C/C++ (STM32Fxx, FreeRTOS, AWS IoT)",
+            "Developed hardware for battery charging station and battery charge management systems",
+            "Developed C programs to control and monitor batteries on a Mini PC"
+          ],
+          "skills": ["Embedded C/C++", "UART", "ADC", "I2C", "SPI", "Sensors", "STM32Fxx", "FreeRTOS", "STM32CubeIDE", "AWS IoT", "Altium Designer"]
+        },
+        {
+          "id": "aesd-2018",
+          "company": "AESD R&D GmbH (Mondialab Pro)",
+          "role": "Senior Embedded Developer",
+          "type": "Full-time",
+          "start": "2018-01",
+          "end": "2018-11",
+          "current": false,
+          "location": "Berlin, Germany",
+          "description": "R&D phase of MONDIALAB PRO — the first Lab on Chip system for comprehensive medical IoT testing.",
+          "bullets": [
+            "Developed and debugged firmware in Embedded C to send data via BLE (u-blox Modules, MSP430)",
+            "Designed and developed a test environment for functional test and production facilities"
+          ],
+          "skills": ["Embedded C/C++", "BLE", "Functional Testing", "UART", "ADC", "I2C", "SPI", "Sensors", "MSP430", "GCC"]
+        },
+        {
+          "id": "vista-2015",
+          "company": "Vista System Parsam Co.",
+          "role": "Senior Embedded Engineer",
+          "type": "Full-time",
+          "start": "2015-05",
+          "end": "2017-12",
+          "current": false,
+          "location": "Tehran, Iran",
+          "description": "Worked on the 5G Testbed project, setting up a software LTE network and designing embedded systems as UE devices for network examination.",
+          "bullets": [
+            "Set up software LTE Network OAI EPC/eNB with SDR (USRP X3xx, OAI 5G)",
+            "Added C functions for implementation of different network features",
+            "Designed and developed a robot to connect to the network as UE (Arduino Rover)",
+            "Designed and developed embedded systems for UE (Raspberry Pi, NXP LPC18xx)"
+          ],
+          "skills": ["Embedded C/C++", "UART", "Wi-Fi Module", "LTE Module", "Sensors", "Python", "NXP LPC18xx", "ARM Cortex-M3", "Raspberry Pi", "OAI 5G", "SDR", "USRP"]
+        },
+        {
+          "id": "arian-asansor-2008",
+          "company": "Arian Asansor Co.",
+          "role": "Embedded Developer",
+          "type": "Full-time",
+          "start": "2008-05",
+          "end": "2015-04",
+          "current": false,
+          "location": "Tehran, Iran",
+          "description": "Arian Asansor is an elevator controller producer with products spanning elevator control, telecommunications, and solar energy.",
+          "bullets": [
+            "Developed hardware and firmware for elevator main controller (Embedded C, NXP LPC8xx, Altium)",
+            "Developed hardware and firmware for SLA battery charger with fast charging",
+            "Developed firmware in C for elevator cabin board (Microchip AVR)",
+            "Developed MP3 player for elevator cabin board (USB, Microchip AVR)"
+          ],
+          "skills": ["Embedded C/C++", "UART", "ADC", "I2C", "SPI", "FAT FS", "BLE Module", "Python", "NXP LPC18xx", "NXP LPC24xx", "ARM Cortex-M3", "ARM7TDMI", "FreeRTOS", "Segger embOS", "AVR", "PIC"]
+        }
+      ],
+      "skills": {
+        "languages":        ["Embedded C", "C++", "Python", "Bash"],
+        "rtos":             ["FreeRTOS", "Zephyr RTOS", "Segger embOS"],
+        "microcontrollers": ["STM32 (Cortex-M)", "Nordic nRF91xx / nRF52xx", "NXP LPC", "TI MSP430", "Raspberry Pi", "Nvidia Jetson", "ESP32", "AVR", "PIC", "ARM Cortex-A"],
+        "protocols":        ["CAN Bus", "USB", "I2C", "SPI", "UART", "TCP/IP", "MQTT", "UDP", "BLE (Bluetooth)", "Wi-Fi", "Zigbee", "RFID", "RS-232", "Protobuf"],
+        "cloud":            ["AWS IoT Core", "AWS Lambda", "Amazon AWS", "Google GCP", "KAA IoT"],
+        "hardware":         ["Altium Designer", "Proteus", "ORCAD", "Eagle", "PCB Design", "Circuit Design"],
+        "telecom":          ["LTE / 4G", "5G / OAI", "WCDMA", "GSM", "NFV", "SDN", "SDR", "USRP"],
+        "tools":            ["Git", "GCC", "GDB", "STM32CubeIDE", "Python Qt", "Docker", "Linux"]
+      },
+      "education": [
+        {
+          "institution": "University of Tehran",
+          "degree": "Master of Science (M.Sc.)",
+          "field": "Telecommunications Engineering",
+          "start": "2014",
+          "end": "2016"
+        },
+        {
+          "institution": "Qazvin International Azad University (QIAU)",
+          "degree": "Bachelor of Science (B.Sc.)",
+          "field": "Electrical and Electronics Engineering",
+          "start": "2002",
+          "end": "2009"
+        }
+      ],
+      "certifications": [
+        { "name": "Internet of Things", "issuer": "QROi Academy Training" },
+        { "name": "LTE Networks",       "issuer": "QROi Academy Training" }
+      ],
+      "awards": [
+        {
+          "title": "Graduate Thesis Fund",
+          "issuer": "Iran Telecommunication Research Center (ITRC)",
+          "date": "2015-05",
+          "description": "Awarded a research fund to complete a 5G thesis project, simulating a 5G feature in a real software-based LTE simulator (OAI)."
+        }
+      ],
+      "languages": [
+        { "language": "English", "level": "Fluent" },
+        { "language": "German",  "level": "B1" },
+        { "language": "Persian", "level": "Native" }
+      ]
+    },
+    {
+      "id": "zahra-mobaraki",
+      "cardId": "b2e5f8a3-91c4-4d7e-8f2b-3a6c9d0e1b47",
+      "personal": {
+        "name": "Zahra Mobaraki Chahkandi",
+        "title": "Senior Full Stack & Backend Developer",
+        "tagline": "15+ years building scalable cloud-native apps — from automotive backends to e-commerce storefronts.",
+        "email": "zahra@mobaraki.de",
+        "phone": "Not available",
+        "location": "Berlin, Germany",
+        "linkedin": "https://www.linkedin.com/in/zahra-mobaraki/",
+        "github": "",
+        "website": "",
+        "avatarUrl": "/avatars/zahra.jpg"
+      },
+      "summary": "Senior Full Stack and Backend Developer with 15+ years of experience delivering scalable, cloud-native applications across automotive, e-commerce, and enterprise sectors. Deep expertise in C#, Python, Node.js, TypeScript, and cloud platforms (Azure, AWS). Proven ability to architect microservices, design REST/GraphQL APIs, and lead containerized deployments with Docker and Kubernetes. Salesforce Certified B2C Commerce Developer. Fluent in English and German (B2).",
+      "experience": [
+        {
+          "id": "edag-2022",
+          "company": "EDAG Engineering Group",
+          "role": "Senior Backend Developer",
+          "type": "Full-time",
+          "start": "2022-09",
+          "end": "2025-08",
+          "current": false,
+          "location": "Berlin, Germany",
+          "description": "Cloud-native engineering for automotive clients including Bosch and Porsche.",
+          "bullets": [
+            "Designed and implemented a cloud-native test bench for Bosch on Microsoft Azure using C#, Kubernetes, and Helm, reducing test cycle time by streamlining CI/CD pipelines",
+            "Built a remote control backend for Porsche vehicles using event-driven architecture and TypeScript, enabling real-time vehicle state management",
+            "Architected and delivered a smart home platform for EDAG using Docker, Kubernetes, and Ingress, supporting multi-tenant deployments at scale",
+            "Contributed to system design reviews and infrastructure-as-code practices using Helm charts for reproducible deployments"
+          ],
+          "skills": ["C#", "TypeScript", "Python", "Visual Basic", "Docker", "Azure", "Kubernetes", "Ingress", "Helm", "Event-Driven Architecture", "System Design"]
+        },
+        {
+          "id": "dept-2018",
+          "company": "Dept Agency",
+          "role": "Senior Full Stack Developer",
+          "type": "Full-time",
+          "start": "2018-07",
+          "end": "2022-08",
+          "current": false,
+          "location": "Berlin, Germany",
+          "description": "Developed and maintained e-commerce storefronts for premium brands using Salesforce Commerce Cloud.",
+          "bullets": [
+            "Developed and maintained e-commerce storefronts for premium brands (Stokke, Birkenstock, fahrrad.de) using Salesforce Commerce Cloud (SFCC)",
+            "Implemented WCAG 2.1 accessibility standards across all projects, increasing compliance and audience reach",
+            "Achieved Salesforce Certified B2C Commerce Developer certification, contributing to team capability uplift",
+            "Delivered frontend performance improvements reducing page load times, directly impacting conversion rates"
+          ],
+          "skills": ["JavaScript", "TypeScript", "CSS/Sass/Less", "HTML5", "Salesforce B2C Commerce Cloud", "WCAG 2.1"]
+        },
+        {
+          "id": "iran-industries-2014",
+          "company": "Iran Small Industries & Industrial Parks Organization",
+          "role": "Full Stack Developer",
+          "type": "Full-time",
+          "start": "2014-02",
+          "end": "2018-03",
+          "current": false,
+          "location": "Tehran, Iran",
+          "description": "Built enterprise Windows desktop applications for HR, attendance, and industrial park subsystems.",
+          "bullets": [
+            "Built three enterprise Windows desktop applications for HR, attendance, and industrial park subsystems using C# and SQL Server, serving 500+ internal users",
+            "Designed complex TSQL stored procedures and Crystal Report / Stimulsoft dashboards, improving reporting accuracy and reducing manual workload"
+          ],
+          "skills": ["C#", "TSQL", "SQL Server", "OOP", "Crystal Report", "Stimulsoft"]
+        },
+        {
+          "id": "almas-2011",
+          "company": "Almas Idea-Makers of Communications Co.",
+          "role": "Full Stack Developer",
+          "type": "Full-time",
+          "start": "2011-07",
+          "end": "2014-02",
+          "current": false,
+          "location": "Mashhad, Iran",
+          "description": "Delivered client websites end-to-end including a theater booking platform and dental clinic portal.",
+          "bullets": [
+            "Delivered 4 client websites end-to-end, including a theater booking platform and dental clinic portal, using PHP, MySQL, jQuery, and JavaScript"
+          ],
+          "skills": ["PHP", "MySQL", "jQuery", "JavaScript", "CSS", "HTML"]
+        },
+        {
+          "id": "mashhad-telecom-2007",
+          "company": "Mashhad Telecommunication Co.",
+          "role": "Full Stack Developer & IT Support",
+          "type": "Full-time",
+          "start": "2007-07",
+          "end": "2011-07",
+          "current": false,
+          "location": "Mashhad, Iran",
+          "description": "Built web-based internal management systems handling thousands of daily transactions.",
+          "bullets": [
+            "Built 4 web-based internal management systems (SIM card management, payment processing, task recording) handling thousands of daily transactions",
+            "Provided helpdesk support for the office network, maintaining system uptime and end-user productivity"
+          ],
+          "skills": ["PHP", "MySQL", "jQuery", "JavaScript", "CSS", "HTML"]
+        }
+      ],
+      "skills": {
+        "backend":      ["C#", "Python", "Node.js", "TypeScript", "PHP", "Java/Maven", "GraphQL", "REST APIs"],
+        "frontend":     ["JavaScript", "TypeScript", "HTML5", "CSS3", "Sass/Less", "React", "AngularJS"],
+        "cloud":        ["Microsoft Azure", "AWS", "Docker", "Kubernetes", "Helm", "Ingress", "CI/CD", "Terraform"],
+        "databases":    ["PostgreSQL", "MySQL", "TSQL/SQL Server", "MongoDB", "Neo4j"],
+        "architecture": ["Microservices", "Event-Driven Architecture", "System Design", "OOP", "Design Patterns", "TDD"],
+        "ecommerce":    ["Salesforce B2C Commerce Cloud (Certified)", "WCAG 2.1 Accessibility"],
+        "tools":        ["Git", "Linux", "Windows", "Visual Studio", "VS Code"]
+      },
+      "education": [
+        {
+          "institution": "Shahid Bahonar Technical College of Shiraz",
+          "degree": "Bachelor of Science (B.Sc.)",
+          "field": "Computer Software Engineering",
+          "start": "2002",
+          "end": "2006"
+        }
+      ],
+      "certifications": [
+        { "name": "Salesforce Certified B2C Commerce Developer", "issuer": "Salesforce" }
+      ],
+      "awards": [],
+      "languages": [
+        { "language": "Persian", "level": "Native" },
+        { "language": "English", "level": "Fluent" },
+        { "language": "German",  "level": "B2" }
+      ]
+    }
+  ]
+}

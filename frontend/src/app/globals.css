@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Design tokens ─────────────────────────────────────────────────────────
+   All components reference these variables — theme switching requires only
+   flipping the class on <html>, no per-component changes needed.
+   Values are space-separated RGB channels so Tailwind opacity modifiers work:
+     text-fg/50  →  color: rgb(var(--fg) / 0.5)
+─────────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* Light mode (default) */
+  --surface-0:    250 250 250;   /* #fafafa */
+  --surface-1:    255 255 255;   /* #ffffff */
+  --surface-2:    244 244 245;   /* #f4f4f5 */
+  --surface-3:    228 228 231;   /* #e4e4e7 */
+  --fg:           9 9 11;        /* #09090b */
+  --muted:        113 113 122;   /* #71717a */
+  --border:       0 0 0;
+  --border-alpha: 0.07;
+  color-scheme: light;
+}
+
+:root.dark {
+  /* Dark mode */
+  --surface-0:    10 10 10;      /* #0a0a0a */
+  --surface-1:    17 17 17;      /* #111111 */
+  --surface-2:    26 26 26;      /* #1a1a1a */
+  --surface-3:    36 36 36;      /* #242424 */
+  --fg:           255 255 255;   /* #ffffff */
+  --muted:        107 114 128;   /* #6b7280 */
+  --border:       255 255 255;
+  --border-alpha: 0.07;
+  color-scheme: dark;
+}
+
+@layer base {
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    @apply bg-surface-0 text-fg antialiased;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  ::selection { @apply bg-accent/30 text-fg; }
+
+  ::-webkit-scrollbar       { width: 6px; }
+  ::-webkit-scrollbar-track { @apply bg-surface-0; }
+  ::-webkit-scrollbar-thumb { @apply bg-surface-3 rounded-full; }
+}
+
+@layer components {
+  .section {
+    @apply py-24 px-6 max-w-5xl mx-auto;
+  }
+
+  .section-label {
+    @apply text-xs font-mono text-accent tracking-[0.2em] uppercase mb-3;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-semibold text-fg mb-4;
+  }
+
+  /* Card adapts automatically — bg-surface-1 and border-border both use CSS vars */
+  .card {
+    @apply bg-surface-1 border border-border rounded-xl p-6 transition-colors duration-200;
+  }
+
+  .tag {
+    @apply text-xs font-mono px-2.5 py-1 rounded-md bg-surface-2 text-muted border border-border;
+  }
+
+  .tag-accent {
+    @apply text-xs font-mono px-2.5 py-1 rounded-md bg-accent/10 text-accent border border-accent/20;
+  }
+
+  /* Gradient text — fg/60 adapts to both themes */
+  .gradient-text {
+    @apply bg-gradient-to-r from-fg to-fg/50 bg-clip-text text-transparent;
+  }
+}
